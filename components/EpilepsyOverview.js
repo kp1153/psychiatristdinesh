@@ -194,18 +194,18 @@ export default function EpilepsyOverview() {
 
           {/* 7. Management Tab */}
           <TabsContent value="management" className="space-y-6">
-            <Card className="bg-slate-900 text-white">
+            <Card className="bg-zinc-100 text-amber-700">
               <CardHeader><CardTitle className="flex items-center gap-2 font-bold text-blue-400 underline decoration-blue-400">Seizure First Aid</CardTitle></CardHeader>
               <CardContent className="grid md:grid-cols-2 gap-8">
                 <div className="space-y-3">
-                  <h4 className="text-emerald-400 font-bold uppercase tracking-wider">Do:</h4>
+                  <h4 className="text-rose-700 font-bold uppercase tracking-wider">Do:</h4>
                   <p className="text-sm">✅ Roll the person onto their side.</p>
                   <p className="text-sm">✅ Cushion their head with something soft.</p>
                   <p className="text-sm">✅ Remove glasses & clear sharp objects nearby.</p>
                   <p className="text-sm">✅ Time the seizure with a watch.</p>
                 </div>
                 <div className="space-y-3">
-                  <h4 className="text-red-400 font-bold uppercase tracking-wider">Don't:</h4>
+                  <h4 className="text-pink-700 font-bold uppercase tracking-wider">Don't:</h4>
                   <p className="text-sm">❌ NEVER put anything in the person's mouth.</p>
                   <p className="text-sm">❌ Do NOT restrain their movements.</p>
                   <p className="text-sm">❌ Do NOT give water until they are fully awake.</p>
@@ -216,7 +216,7 @@ export default function EpilepsyOverview() {
           </TabsContent>
         </Tabs>
 
-        <footer className="mt-20 pt-8 border-t border-slate-200 text-center text-slate-400 text-xs">
+        <footer className="mt-20 pt-8 border-t border-zinc-100 text-center text-amber-700 text-xs">
           Copyright © 2026 Epilepsy Awareness Portal. All clinical data follows current WHO protocols.
         </footer>
       </div>
