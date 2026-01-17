@@ -111,29 +111,18 @@ const Navbar = () => {
           {/* Menu */}
           <div className={`pb-4 ${isMenuOpen ? "block" : "hidden"} lg:block`}>
             <div className="menu-scroll flex flex-col lg:flex-row lg:flex-nowrap lg:overflow-x-auto lg:pb-2 gap-2">
-              {navItems.map((item) =>
-                item.href ? (
-                  <Link
-                    key={item.name}
-                    href={item.href}
-                    onClick={() => setIsMenuOpen(false)}
-                    className="text-white text-center font-medium rounded-md px-3 py-2 text-sm lg:whitespace-nowrap hover:bg-teal-600"
-                  >
-                    {item.name}
-                  </Link>
-                ) : (
-                  <button
-                    key={item.name}
-                    onClick={() => scrollToSection(item.id)}
-                    className={`
-                      text-white text-center font-medium rounded-md px-3 py-2 text-sm lg:whitespace-nowrap hover:bg-teal-600
-                      ${activeSection === item.id ? "bg-teal-600 ring-1 ring-yellow-400" : ""}
-                    `}
-                  >
-                    {item.name}
-                  </Link>
-                )
-              )}
+              {navItems.map((item) => (
+                <button
+                  key={item.name}
+                  onClick={() => scrollToSection(item.id)}
+                  className={`
+                    text-white text-center font-medium rounded-md px-3 py-2 text-sm lg:whitespace-nowrap hover:bg-teal-600
+                    ${activeSection === item.id ? "bg-teal-600 ring-1 ring-yellow-400" : ""}
+                  `}
+                >
+                  {item.name}
+                </button>
+              ))}
             </div>
           </div>
 
