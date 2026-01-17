@@ -1,4 +1,4 @@
- "use client";
+"use client";
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
@@ -21,7 +21,7 @@ const Navbar = () => {
     { name: "PTSD", id: "ptsd" },
     { name: "Addiction", id: "addiction" },
     { name: "Sexual Health", id: "sexual-dysfunction" },
-    { name: "Contact", href: "/contact" },
+    { name: "Contact", id: "contact" },
   ];
 
   const scrollToSection = (id) => {
@@ -131,7 +131,7 @@ const Navbar = () => {
                     `}
                   >
                     {item.name}
-                  </button>
+                  </Link>
                 )
               )}
             </div>
