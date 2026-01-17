@@ -14,12 +14,12 @@ export default function SexualDysfunctionOverview() {
           <div className="flex items-center justify-center gap-3 mb-4">
             <Heart className="w-12 h-12 text-rose-600" />
             <h1 className="text-5xl font-bold bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
-              यौन अक्षमता (Sexual Dysfunction)
+              Sexual Dysfunction
             </h1>
             <Users className="w-12 h-12 text-pink-600" />
           </div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            यौन स्वास्थ्य की संपूर्ण जानकारी - प्रकार, कारण, लक्षण और उपचार
+            Complete guide to sexual health - types, causes, symptoms and treatment
           </p>
         </header>
 
@@ -27,27 +27,27 @@ export default function SexualDysfunctionOverview() {
           <TabsList className="grid w-full grid-cols-6 mb-8 bg-white/50 backdrop-blur-sm">
             <TabsTrigger value="overview" className="flex items-center gap-2">
               <Brain className="w-4 h-4" />
-              अवलोकन
+              Overview
             </TabsTrigger>
             <TabsTrigger value="types" className="flex items-center gap-2">
               <Activity className="w-4 h-4" />
-              प्रकार
+              Types
             </TabsTrigger>
             <TabsTrigger value="causes" className="flex items-center gap-2">
               <AlertTriangle className="w-4 h-4" />
-              कारण
+              Causes
             </TabsTrigger>
             <TabsTrigger value="symptoms" className="flex items-center gap-2">
               <Zap className="w-4 h-4" />
-              लक्षण
+              Symptoms
             </TabsTrigger>
             <TabsTrigger value="treatment" className="flex items-center gap-2">
               <Pill className="w-4 h-4" />
-              उपचार
+              Treatment
             </TabsTrigger>
             <TabsTrigger value="support" className="flex items-center gap-2">
               <MessageCircle className="w-4 h-4" />
-              सहायता
+              Support
             </TabsTrigger>
           </TabsList>
 
@@ -55,14 +55,14 @@ export default function SexualDysfunctionOverview() {
           <TabsContent value="overview" className="space-y-6">
             <Card className="shadow-lg">
               <CardHeader className="bg-gradient-to-r from-rose-50 to-pink-50">
-                <CardTitle className="text-2xl">यौन अक्षमता क्या है?</CardTitle>
+                <CardTitle className="text-2xl">What is Sexual Dysfunction?</CardTitle>
               </CardHeader>
               <CardContent className="pt-6">
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  यौन अक्षमता एक सामान्य समस्या है जो किसी भी उम्र के पुरुषों और महिलाओं को प्रभावित कर सकती है। यह यौन क्रिया के किसी भी चरण में कठिनाई को संदर्भित करता है - इच्छा, उत्तेजना, चरमोत्कर्ष (orgasm), या संतुष्टि में समस्या।
+                  Sexual dysfunction is a common problem that can affect men and women of any age. It refers to difficulty during any stage of sexual activity - desire, arousal, orgasm, or satisfaction.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  यौन अक्षमता शारीरिक, मनोवैज्ञानिक, या दोनों कारणों से हो सकती है। यह रिश्तों को प्रभावित कर सकती है और आत्म-सम्मान को कम कर सकती है, लेकिन अधिकांश मामलों में इसका सफल उपचार संभव है।
+                  Sexual dysfunction can be caused by physical, psychological, or both factors. It can affect relationships and reduce self-esteem, but most cases can be successfully treated.
                 </p>
               </CardContent>
             </Card>
@@ -72,15 +72,15 @@ export default function SexualDysfunctionOverview() {
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <Users className="w-5 h-5 text-rose-500" />
-                    प्रसार
+                    Prevalence
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2 text-sm">
-                    <li>• पुरुषों में: 31% (विभिन्न प्रकार)</li>
-                    <li>• महिलाओं में: 43% (विभिन्न प्रकार)</li>
-                    <li>• उम्र के साथ बढ़ता है</li>
-                    <li>• अधिकांश मामले इलाज योग्य हैं</li>
+                    <li>• Men: 31% (various types)</li>
+                    <li>• Women: 43% (various types)</li>
+                    <li>• Increases with age</li>
+                    <li>• Most cases are treatable</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -89,15 +89,15 @@ export default function SexualDysfunctionOverview() {
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <Brain className="w-5 h-5 text-pink-500" />
-                    मुख्य कारण
+                    Main Causes
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2 text-sm">
-                    <li>• शारीरिक स्वास्थ्य समस्याएं</li>
-                    <li>• मनोवैज्ञानिक कारक</li>
-                    <li>• दवाओं के दुष्प्रभाव</li>
-                    <li>• हार्मोनल असंतुलन</li>
+                    <li>• Physical health problems</li>
+                    <li>• Psychological factors</li>
+                    <li>• Medication side effects</li>
+                    <li>• Hormonal imbalances</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -106,15 +106,15 @@ export default function SexualDysfunctionOverview() {
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <Shield className="w-5 h-5 text-red-500" />
-                    महत्वपूर्ण तथ्य
+                    Important Facts
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2 text-sm">
-                    <li>• शर्म न करें, डॉक्टर से बात करें</li>
-                    <li>• अधिकांश मामले उपचार योग्य</li>
-                    <li>• साथी का सहयोग महत्वपूर्ण</li>
-                    <li>• जीवनशैली बदलाव मदद करते हैं</li>
+                    <li>• Don't be embarrassed, talk to a doctor</li>
+                    <li>• Most cases are treatable</li>
+                    <li>• Partner support is crucial</li>
+                    <li>• Lifestyle changes help</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -122,9 +122,9 @@ export default function SexualDysfunctionOverview() {
 
             <Alert className="bg-rose-50 border-rose-200">
               <Heart className="h-4 w-4 text-rose-600" />
-              <AlertTitle>याद रखें</AlertTitle>
+              <AlertTitle>Remember</AlertTitle>
               <AlertDescription>
-                यौन स्वास्थ्य समग्र स्वास्थ्य का महत्वपूर्ण हिस्सा है। यौन समस्याओं के बारे में बात करना शर्मिंदगी की बात नहीं है। पेशेवर मदद लेने से स्थिति में सुधार हो सकता है।
+                Sexual health is an important part of overall health. Talking about sexual problems is not embarrassing. Seeking professional help can improve the situation.
               </AlertDescription>
             </Alert>
           </TabsContent>
@@ -133,34 +133,34 @@ export default function SexualDysfunctionOverview() {
           <TabsContent value="types" className="space-y-6">
             <Alert className="bg-blue-50 border-blue-200">
               <Brain className="h-4 w-4 text-blue-600" />
-              <AlertTitle>यौन अक्षमता के मुख्य प्रकार</AlertTitle>
+              <AlertTitle>Main Types of Sexual Dysfunction</AlertTitle>
               <AlertDescription>
-                यौन अक्षमता को चार मुख्य श्रेणियों में विभाजित किया जाता है, जो यौन प्रतिक्रिया चक्र के विभिन्न चरणों को प्रभावित करते हैं।
+                Sexual dysfunction is divided into four main categories, affecting different stages of the sexual response cycle.
               </AlertDescription>
             </Alert>
 
             <div className="grid md:grid-cols-2 gap-6">
               <Card className="shadow-lg">
                 <CardHeader className="bg-gradient-to-r from-purple-50 to-pink-50">
-                  <CardTitle>1. यौन इच्छा विकार (Desire Disorders)</CardTitle>
+                  <CardTitle>1. Desire Disorders</CardTitle>
                 </CardHeader>
                 <CardContent className="pt-4">
-                  <Badge className="mb-3 bg-purple-500">सबसे आम</Badge>
-                  <p className="text-sm text-gray-700 mb-3">यौन गतिविधि में रुचि की कमी या अनुपस्थिति</p>
+                  <Badge className="mb-3 bg-purple-500">Most Common</Badge>
+                  <p className="text-sm text-gray-700 mb-3">Lack or absence of interest in sexual activity</p>
                   <div className="space-y-3">
                     <div>
-                      <p className="font-semibold text-sm mb-1">महिलाओं में:</p>
+                      <p className="font-semibold text-sm mb-1">In Women:</p>
                       <ul className="text-sm space-y-1 text-gray-700">
                         <li>• Hypoactive Sexual Desire Disorder (HSDD)</li>
-                        <li>• यौन विचारों या कल्पनाओं की कमी</li>
-                        <li>• यौन गतिविधि शुरू करने में अनिच्छा</li>
+                        <li>• Lack of sexual thoughts or fantasies</li>
+                        <li>• Reluctance to initiate sexual activity</li>
                       </ul>
                     </div>
                     <div>
-                      <p className="font-semibold text-sm mb-1">पुरुषों में:</p>
+                      <p className="font-semibold text-sm mb-1">In Men:</p>
                       <ul className="text-sm space-y-1 text-gray-700">
-                        <li>• कम libido (कामेच्छा)</li>
-                        <li>• यौन गतिविधि में रुचि की कमी</li>
+                        <li>• Low libido</li>
+                        <li>• Lack of interest in sexual activity</li>
                       </ul>
                     </div>
                   </div>
@@ -169,26 +169,26 @@ export default function SexualDysfunctionOverview() {
 
               <Card className="shadow-lg">
                 <CardHeader className="bg-gradient-to-r from-blue-50 to-cyan-50">
-                  <CardTitle>2. उत्तेजना विकार (Arousal Disorders)</CardTitle>
+                  <CardTitle>2. Arousal Disorders</CardTitle>
                 </CardHeader>
                 <CardContent className="pt-4">
-                  <Badge className="mb-3 bg-blue-500">शारीरिक प्रतिक्रिया</Badge>
-                  <p className="text-sm text-gray-700 mb-3">यौन उत्तेजना प्राप्त करने या बनाए रखने में कठिनाई</p>
+                  <Badge className="mb-3 bg-blue-500">Physical Response</Badge>
+                  <p className="text-sm text-gray-700 mb-3">Difficulty achieving or maintaining sexual arousal</p>
                   <div className="space-y-3">
                     <div>
-                      <p className="font-semibold text-sm mb-1">पुरुषों में:</p>
+                      <p className="font-semibold text-sm mb-1">In Men:</p>
                       <ul className="text-sm space-y-1 text-gray-700">
-                        <li>• <strong>Erectile Dysfunction (ED)</strong> - स्तंभन दोष</li>
-                        <li>• इरेक्शन प्राप्त या बनाए रखने में असमर्थता</li>
-                        <li>• 40+ उम्र में अधिक आम</li>
+                        <li>• <strong>Erectile Dysfunction (ED)</strong></li>
+                        <li>• Inability to achieve or maintain erection</li>
+                        <li>• More common in 40+ age</li>
                       </ul>
                     </div>
                     <div>
-                      <p className="font-semibold text-sm mb-1">महिलाओं में:</p>
+                      <p className="font-semibold text-sm mb-1">In Women:</p>
                       <ul className="text-sm space-y-1 text-gray-700">
-                        <li>• योनि में स्नेहन की कमी</li>
-                        <li>• जननांग क्षेत्र में रक्त प्रवाह की समस्या</li>
-                        <li>• शारीरिक उत्तेजना प्राप्त करने में कठिनाई</li>
+                        <li>• Lack of vaginal lubrication</li>
+                        <li>• Blood flow issues to genital area</li>
+                        <li>• Difficulty achieving physical arousal</li>
                       </ul>
                     </div>
                   </div>
@@ -197,26 +197,26 @@ export default function SexualDysfunctionOverview() {
 
               <Card className="shadow-lg">
                 <CardHeader className="bg-gradient-to-r from-rose-50 to-red-50">
-                  <CardTitle>3. चरमोत्कर्ष विकार (Orgasm Disorders)</CardTitle>
+                  <CardTitle>3. Orgasm Disorders</CardTitle>
                 </CardHeader>
                 <CardContent className="pt-4">
-                  <Badge className="mb-3 bg-rose-500">संतुष्टि में कठिनाई</Badge>
-                  <p className="text-sm text-gray-700 mb-3">चरमोत्कर्ष (orgasm) तक पहुंचने में देरी या असमर्थता</p>
+                  <Badge className="mb-3 bg-rose-500">Difficulty with Satisfaction</Badge>
+                  <p className="text-sm text-gray-700 mb-3">Delay or inability to reach orgasm</p>
                   <div className="space-y-3">
                     <div>
-                      <p className="font-semibold text-sm mb-1">पुरुषों में:</p>
+                      <p className="font-semibold text-sm mb-1">In Men:</p>
                       <ul className="text-sm space-y-1 text-gray-700">
-                        <li>• <strong>Premature Ejaculation</strong> - शीघ्रपतन</li>
-                        <li>• <strong>Delayed Ejaculation</strong> - विलंबित स्खलन</li>
+                        <li>• <strong>Premature Ejaculation</strong></li>
+                        <li>• <strong>Delayed Ejaculation</strong></li>
                         <li>• <strong>Retrograde Ejaculation</strong></li>
                       </ul>
                     </div>
                     <div>
-                      <p className="font-semibold text-sm mb-1">महिलाओं में:</p>
+                      <p className="font-semibold text-sm mb-1">In Women:</p>
                       <ul className="text-sm space-y-1 text-gray-700">
-                        <li>• Anorgasmia - चरमोत्कर्ष न होना</li>
-                        <li>• पर्याप्त उत्तेजना के बाद भी orgasm में कठिनाई</li>
-                        <li>• Orgasm तक पहुंचने में बहुत समय लगना</li>
+                        <li>• Anorgasmia - no orgasm</li>
+                        <li>• Difficulty with orgasm despite adequate stimulation</li>
+                        <li>• Takes too long to reach orgasm</li>
                       </ul>
                     </div>
                   </div>
@@ -225,27 +225,27 @@ export default function SexualDysfunctionOverview() {
 
               <Card className="shadow-lg">
                 <CardHeader className="bg-gradient-to-r from-amber-50 to-orange-50">
-                  <CardTitle>4. दर्द विकार (Pain Disorders)</CardTitle>
+                  <CardTitle>4. Pain Disorders</CardTitle>
                 </CardHeader>
                 <CardContent className="pt-4">
-                  <Badge className="mb-3 bg-amber-500">यौन क्रिया के दौरान दर्द</Badge>
-                  <p className="text-sm text-gray-700 mb-3">यौन गतिविधि से जुड़ा दर्द</p>
+                  <Badge className="mb-3 bg-amber-500">Pain during sexual activity</Badge>
+                  <p className="text-sm text-gray-700 mb-3">Pain associated with sexual activity</p>
                   <div className="space-y-3">
                     <div>
-                      <p className="font-semibold text-sm mb-1">महिलाओं में (अधिक आम):</p>
+                      <p className="font-semibold text-sm mb-1">In Women (more common):</p>
                       <ul className="text-sm space-y-1 text-gray-700">
-                        <li>• <strong>Dyspareunia</strong> - संभोग के दौरान दर्द</li>
-                        <li>• <strong>Vaginismus</strong> - योनि की मांसपेशियों में ऐंठन</li>
-                        <li>• प्रवेश के दौरान दर्द</li>
-                        <li>• जलन या बेचैनी</li>
+                        <li>• <strong>Dyspareunia</strong> - pain during intercourse</li>
+                        <li>• <strong>Vaginismus</strong> - vaginal muscle spasms</li>
+                        <li>• Pain during penetration</li>
+                        <li>• Burning or discomfort</li>
                       </ul>
                     </div>
                     <div>
-                      <p className="font-semibold text-sm mb-1">पुरुषों में:</p>
+                      <p className="font-semibold text-sm mb-1">In Men:</p>
                       <ul className="text-sm space-y-1 text-gray-700">
-                        <li>• लिंग में दर्द</li>
-                        <li>• स्खलन के दौरान दर्द</li>
-                        <li>• Peyronie's disease (लिंग की वक्रता)</li>
+                        <li>• Pain in penis</li>
+                        <li>• Pain during ejaculation</li>
+                        <li>• Peyronie's disease (penile curvature)</li>
                       </ul>
                     </div>
                   </div>
@@ -253,14 +253,13 @@ export default function SexualDysfunctionOverview() {
               </Card>
             </div>
           </TabsContent>
-
           {/* Causes Tab */}
           <TabsContent value="causes" className="space-y-6">
             <Alert className="bg-amber-50 border-amber-200">
               <AlertTriangle className="h-4 w-4 text-amber-600" />
-              <AlertTitle>बहुकारकीय समस्या</AlertTitle>
+              <AlertTitle>Multifactorial Problem</AlertTitle>
               <AlertDescription>
-                यौन अक्षमता अक्सर शारीरिक और मनोवैज्ञानिक कारकों के संयोजन से होती है। कभी-कभी एक समस्या दूसरे को जन्म देती है।
+                Sexual dysfunction often results from a combination of physical and psychological factors. Sometimes one problem leads to another.
               </AlertDescription>
             </Alert>
 
@@ -269,31 +268,31 @@ export default function SexualDysfunctionOverview() {
                 <CardHeader className="bg-gradient-to-r from-red-50 to-rose-50">
                   <CardTitle className="flex items-center gap-2">
                     <Activity className="w-5 h-5 text-red-600" />
-                    शारीरिक कारण
+                    Physical Causes
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="pt-4">
                   <div className="space-y-3">
                     <div>
-                      <p className="font-semibold text-sm mb-1">चिकित्सा स्थितियां:</p>
+                      <p className="font-semibold text-sm mb-1">Medical Conditions:</p>
                       <ul className="text-sm space-y-1 text-gray-700">
-                        <li>• <strong>मधुमेह (Diabetes)</strong> - नसों और रक्त वाहिकाओं को नुकसान</li>
-                        <li>• <strong>हृदय रोग</strong> - रक्त प्रवाह में कमी</li>
-                        <li>• <strong>उच्च रक्तचाप</strong></li>
-                        <li>• <strong>न्यूरोलॉजिकल विकार</strong> (Parkinson's, MS)</li>
-                        <li>• <strong>हार्मोनल असंतुलन</strong> (थायरॉयड, testosterone)</li>
-                        <li>• <strong>गुर्दे या लीवर की बीमारी</strong></li>
+                        <li>• <strong>Diabetes</strong> - damages nerves and blood vessels</li>
+                        <li>• <strong>Heart disease</strong> - reduced blood flow</li>
+                        <li>• <strong>High blood pressure</strong></li>
+                        <li>• <strong>Neurological disorders</strong> (Parkinson's, MS)</li>
+                        <li>• <strong>Hormonal imbalances</strong> (thyroid, testosterone)</li>
+                        <li>• <strong>Kidney or liver disease</strong></li>
                       </ul>
                     </div>
                     <div>
-                      <p className="font-semibold text-sm mb-1">अन्य शारीरिक कारक:</p>
+                      <p className="font-semibold text-sm mb-1">Other Physical Factors:</p>
                       <ul className="text-sm space-y-1 text-gray-700">
-                        <li>• मोटापा</li>
-                        <li>• धूम्रपान और शराब</li>
-                        <li>• नशीली दवाओं का उपयोग</li>
-                        <li>• सर्जरी या चोट</li>
-                        <li>• रजोनिवृत्ति (Menopause)</li>
-                        <li>• गर्भावस्था और प्रसव</li>
+                        <li>• Obesity</li>
+                        <li>• Smoking and alcohol</li>
+                        <li>• Drug use</li>
+                        <li>• Surgery or injury</li>
+                        <li>• Menopause</li>
+                        <li>• Pregnancy and childbirth</li>
                       </ul>
                     </div>
                   </div>
@@ -304,37 +303,37 @@ export default function SexualDysfunctionOverview() {
                 <CardHeader className="bg-gradient-to-r from-purple-50 to-pink-50">
                   <CardTitle className="flex items-center gap-2">
                     <Brain className="w-5 h-5 text-purple-600" />
-                    मनोवैज्ञानिक कारण
+                    Psychological Causes
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="pt-4">
                   <div className="space-y-3">
                     <div>
-                      <p className="font-semibold text-sm mb-1">मानसिक स्वास्थ्य:</p>
+                      <p className="font-semibold text-sm mb-1">Mental Health:</p>
                       <ul className="text-sm space-y-1 text-gray-700">
-                        <li>• <strong>अवसाद (Depression)</strong></li>
-                        <li>• <strong>चिंता (Anxiety)</strong></li>
-                        <li>• <strong>तनाव</strong> (काम, वित्तीय, पारिवारिक)</li>
-                        <li>• <strong>आत्म-सम्मान की कमी</strong></li>
-                        <li>• <strong>पिछला यौन आघात</strong></li>
-                        <li>• <strong>अपराध बोध या शर्म</strong></li>
+                        <li>• <strong>Depression</strong></li>
+                        <li>• <strong>Anxiety</strong></li>
+                        <li>• <strong>Stress</strong> (work, financial, family)</li>
+                        <li>• <strong>Low self-esteem</strong></li>
+                        <li>• <strong>Past sexual trauma</strong></li>
+                        <li>• <strong>Guilt or shame</strong></li>
                       </ul>
                     </div>
                     <div>
-                      <p className="font-semibold text-sm mb-1">रिश्ते के मुद्दे:</p>
+                      <p className="font-semibold text-sm mb-1">Relationship Issues:</p>
                       <ul className="text-sm space-y-1 text-gray-700">
-                        <li>• साथी के साथ संघर्ष</li>
-                        <li>• संचार की कमी</li>
-                        <li>• विश्वास की कमी</li>
-                        <li>• अलग-अलग यौन अपेक्षाएं</li>
-                        <li>• रिश्ते में असंतोष</li>
+                        <li>• Conflict with partner</li>
+                        <li>• Lack of communication</li>
+                        <li>• Lack of trust</li>
+                        <li>• Different sexual expectations</li>
+                        <li>• Relationship dissatisfaction</li>
                       </ul>
                     </div>
                     <div>
-                      <p className="font-semibold text-sm mb-1">प्रदर्शन चिंता:</p>
+                      <p className="font-semibold text-sm mb-1">Performance Anxiety:</p>
                       <ul className="text-sm space-y-1 text-gray-700">
-                        <li>• पिछली असफलताओं का डर</li>
-                        <li>• साथी को संतुष्ट न कर पाने की चिंता</li>
+                        <li>• Fear of past failures</li>
+                        <li>• Worry about not satisfying partner</li>
                       </ul>
                     </div>
                   </div>
@@ -345,11 +344,11 @@ export default function SexualDysfunctionOverview() {
                 <CardHeader className="bg-gradient-to-r from-blue-50 to-cyan-50">
                   <CardTitle className="flex items-center gap-2">
                     <Pill className="w-5 h-5 text-blue-600" />
-                    दवाओं के दुष्प्रभाव
+                    Medication Side Effects
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="pt-4">
-                  <p className="text-sm text-gray-700 mb-3">कई दवाएं यौन क्रिया को प्रभावित कर सकती हैं:</p>
+                  <p className="text-sm text-gray-700 mb-3">Many medications can affect sexual function:</p>
                   <ul className="text-sm space-y-2 text-gray-700">
                     <li>• <strong>Antidepressants</strong> (SSRI, SNRI)</li>
                     <li>• <strong>Blood pressure medications</strong></li>
@@ -361,7 +360,7 @@ export default function SexualDysfunctionOverview() {
                   </ul>
                   <Alert className="mt-3 bg-yellow-50 border-yellow-200">
                     <AlertDescription className="text-xs">
-                      अगर आपको लगता है कि दवा यौन समस्याओं का कारण बन रही है, तो डॉक्टर से बात करें। खुद से दवा बंद न करें।
+                      If you think medication is causing sexual problems, talk to your doctor. Don't stop medication on your own.
                     </AlertDescription>
                   </Alert>
                 </CardContent>
@@ -371,20 +370,20 @@ export default function SexualDysfunctionOverview() {
                 <CardHeader className="bg-gradient-to-r from-green-50 to-emerald-50">
                   <CardTitle className="flex items-center gap-2">
                     <Shield className="w-5 h-5 text-green-600" />
-                    जीवनशैली कारक
+                    Lifestyle Factors
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="pt-4">
                   <ul className="text-sm space-y-2 text-gray-700">
-                    <li>• <strong>धूम्रपान</strong> - रक्त वाहिकाओं को नुकसान</li>
-                    <li>• <strong>अत्यधिक शराब</strong> - यौन प्रतिक्रिया कम करती है</li>
-                    <li>• <strong>नशीली दवाएं</strong> (मारिजुआना, cocaine, आदि)</li>
-                    <li>• <strong>खराब आहार</strong></li>
-                    <li>• <strong>व्यायाम की कमी</strong></li>
-                    <li>• <strong>मोटापा</strong></li>
-                    <li>• <strong>नींद की कमी</strong></li>
-                    <li>• <strong>अत्यधिक तनाव</strong></li>
-                    <li>• <strong>बहुत अधिक साइकिलिंग</strong> (पुरुषों में)</li>
+                    <li>• <strong>Smoking</strong> - damages blood vessels</li>
+                    <li>• <strong>Excessive alcohol</strong> - reduces sexual response</li>
+                    <li>• <strong>Drug use</strong> (marijuana, cocaine, etc.)</li>
+                    <li>• <strong>Poor diet</strong></li>
+                    <li>• <strong>Lack of exercise</strong></li>
+                    <li>• <strong>Obesity</strong></li>
+                    <li>• <strong>Lack of sleep</strong></li>
+                    <li>• <strong>Excessive stress</strong></li>
+                    <li>• <strong>Too much cycling</strong> (in men)</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -396,32 +395,32 @@ export default function SexualDysfunctionOverview() {
             <div className="grid md:grid-cols-2 gap-6">
               <Card className="shadow-lg">
                 <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50">
-                  <CardTitle>पुरुषों में लक्षण</CardTitle>
+                  <CardTitle>Symptoms in Men</CardTitle>
                 </CardHeader>
                 <CardContent className="pt-4">
                   <div className="space-y-3">
                     <div>
-                      <Badge className="mb-2">स्तंभन समस्याएं</Badge>
+                      <Badge className="mb-2">Erection Problems</Badge>
                       <ul className="text-sm space-y-1 text-gray-700">
-                        <li>• इरेक्शन प्राप्त करने में असमर्थता</li>
-                        <li>• इरेक्शन बनाए रखने में कठिनाई</li>
-                        <li>• कम कठोर इरेक्शन</li>
+                        <li>• Inability to achieve erection</li>
+                        <li>• Difficulty maintaining erection</li>
+                        <li>• Less rigid erection</li>
                       </ul>
                     </div>
                     <div>
-                      <Badge className="mb-2">स्खलन समस्याएं</Badge>
+                      <Badge className="mb-2">Ejaculation Problems</Badge>
                       <ul className="text-sm space-y-1 text-gray-700">
-                        <li>• शीघ्रपतन (1 मिनट से कम)</li>
-                        <li>• विलंबित या कोई स्खलन नहीं</li>
+                        <li>• Premature ejaculation (less than 1 minute)</li>
+                        <li>• Delayed or no ejaculation</li>
                         <li>• Retrograde ejaculation</li>
                       </ul>
                     </div>
                     <div>
-                      <Badge className="mb-2">इच्छा की कमी</Badge>
+                      <Badge className="mb-2">Lack of Desire</Badge>
                       <ul className="text-sm space-y-1 text-gray-700">
-                        <li>• यौन गतिविधि में रुचि न होना</li>
-                        <li>• कम libido</li>
-                        <li>• यौन कल्पनाओं की कमी</li>
+                        <li>• No interest in sexual activity</li>
+                        <li>• Low libido</li>
+                        <li>• Lack of sexual fantasies</li>
                       </ul>
                     </div>
                   </div>
@@ -430,39 +429,39 @@ export default function SexualDysfunctionOverview() {
 
               <Card className="shadow-lg">
                 <CardHeader className="bg-gradient-to-r from-pink-50 to-rose-50">
-                  <CardTitle>महिलाओं में लक्षण</CardTitle>
+                  <CardTitle>Symptoms in Women</CardTitle>
                 </CardHeader>
                 <CardContent className="pt-4">
                   <div className="space-y-3">
                     <div>
-                      <Badge className="mb-2">उत्तेजना समस्याएं</Badge>
+                      <Badge className="mb-2">Arousal Problems</Badge>
                       <ul className="text-sm space-y-1 text-gray-700">
-                        <li>• योनि में पर्याप्त स्नेहन न होना</li>
-                        <li>• जननांग क्षेत्र में सूजन की कमी</li>
-                        <li>• शारीरिक उत्तेजना प्राप्त करने में कठिनाई</li>
+                        <li>• Insufficient vaginal lubrication</li>
+                        <li>• Lack of swelling in genital area</li>
+                        <li>• Difficulty achieving physical arousal</li>
                       </ul>
                     </div>
                     <div>
-                      <Badge className="mb-2">चरमोत्कर्ष समस्याएं</Badge>
+                      <Badge className="mb-2">Orgasm Problems</Badge>
                       <ul className="text-sm space-y-1 text-gray-700">
-                        <li>• Orgasm तक पहुंचने में कठिनाई या असमर्थता</li>
-                        <li>• कमजोर या विलंबित orgasm</li>
-                        <li>• Orgasm की तीव्रता में कमी</li>
+                        <li>• Difficulty or inability to reach orgasm</li>
+                        <li>• Weak or delayed orgasm</li>
+                        <li>• Reduced orgasm intensity</li>
                       </ul>
                     </div>
                     <div>
-                     <Badge className="mb-2">दर्द और बेचैनी</Badge>
+                     <Badge className="mb-2">Pain and Discomfort</Badge>
                       <ul className="text-sm space-y-1 text-gray-700">
-                        <li>• संभोग के दौरान दर्द (Dyspareunia)</li>
-                        <li>• योनि की मांसपेशियों में ऐंठन (Vaginismus)</li>
-                        <li>• जलन या खुजली</li>
+                        <li>• Pain during intercourse (Dyspareunia)</li>
+                        <li>• Vaginal muscle spasms (Vaginismus)</li>
+                        <li>• Burning or itching</li>
                       </ul>
                     </div>
                     <div>
-                      <Badge className="mb-2">इच्छा की कमी</Badge>
+                      <Badge className="mb-2">Lack of Desire</Badge>
                       <ul className="text-sm space-y-1 text-gray-700">
-                        <li>• यौन गतिविधि में रुचि न होना</li>
-                        <li>• यौन विचारों की कमी</li>
+                        <li>• No interest in sexual activity</li>
+                        <li>• Lack of sexual thoughts</li>
                       </ul>
                     </div>
                   </div>
@@ -472,13 +471,13 @@ export default function SexualDysfunctionOverview() {
 
             <Alert className="bg-red-50 border-red-200">
               <Stethoscope className="h-4 w-4 text-red-600" />
-              <AlertTitle>डॉक्टर से कब मिलें</AlertTitle>
+              <AlertTitle>When to See a Doctor</AlertTitle>
               <AlertDescription>
                 <ul className="text-sm space-y-1 mt-2">
-                  <li>• अगर यौन समस्याएं लगातार या बार-बार हो रही हैं</li>
-                  <li>• अगर यह आपके या आपके साथी के लिए चिंता का कारण है</li>
-                  <li>• अगर यह आपके रिश्ते को प्रभावित कर रहा है</li>
-                  <li>• अगर अन्य लक्षण भी हैं (दर्द, रक्तस्राव, असामान्य स्राव)</li>
+                  <li>• If sexual problems are persistent or recurring</li>
+                  <li>• If it's causing concern for you or your partner</li>
+                  <li>• If it's affecting your relationship</li>
+                  <li>• If there are other symptoms (pain, bleeding, abnormal discharge)</li>
                 </ul>
               </AlertDescription>
             </Alert>
@@ -488,42 +487,42 @@ export default function SexualDysfunctionOverview() {
           <TabsContent value="treatment" className="space-y-6">
             <Alert className="bg-green-50 border-green-200">
               <Shield className="h-4 w-4 text-green-600" />
-              <AlertTitle>अच्छी खबर</AlertTitle>
+              <AlertTitle>Good News</AlertTitle>
               <AlertDescription>
-                यौन अक्षमता के अधिकांश मामलों का सफलतापूर्वक इलाज किया जा सकता है। उपचार अंतर्निहित कारण पर निर्भर करता है।
+                Most cases of sexual dysfunction can be successfully treated. Treatment depends on the underlying cause.
               </AlertDescription>
             </Alert>
 
             <div className="grid md:grid-cols-2 gap-6">
               <Card className="shadow-lg">
                 <CardHeader className="bg-gradient-to-r from-blue-50 to-cyan-50">
-                  <CardTitle>चिकित्सा उपचार</CardTitle>
+                  <CardTitle>Medical Treatment</CardTitle>
                 </CardHeader>
                 <CardContent className="pt-4">
                   <div className="space-y-4">
                     <div>
-                      <Badge className="mb-2">पुरुषों के लिए दवाएं</Badge>
+                      <Badge className="mb-2">Medications for Men</Badge>
                       <ul className="text-sm space-y-1 text-gray-700">
-                        <li>• <strong>PDE5 inhibitors</strong> (Viagra, Cialis, Levitra) - ED के लिए</li>
-                        <li>• <strong>Testosterone replacement</strong> - कम testosterone के लिए</li>
-                        <li>• <strong>Antidepressants</strong> - शीघ्रपतन के लिए (SSRI)</li>
-                        <li>• <strong>Alprostadil injections</strong> - ED के लिए</li>
+                        <li>• <strong>PDE5 inhibitors</strong> (Viagra, Cialis, Levitra) - for ED</li>
+                        <li>• <strong>Testosterone replacement</strong> - for low testosterone</li>
+                        <li>• <strong>Antidepressants</strong> - for premature ejaculation (SSRI)</li>
+                        <li>• <strong>Alprostadil injections</strong> - for ED</li>
                       </ul>
                     </div>
                     <div>
-                      <Badge className="mb-2">महिलाओं के लिए दवाएं</Badge>
+                      <Badge className="mb-2">Medications for Women</Badge>
                       <ul className="text-sm space-y-1 text-gray-700">
                         <li>• <strong>Hormone therapy</strong> (Estrogen, testosterone)</li>
-                        <li>• <strong>Flibanserin (Addyi)</strong> - कम libido के लिए</li>
-                        <li>• <strong>Bremelanotide (Vyleesi)</strong> - इच्छा के लिए</li>
-                        <li>• <strong>Vaginal lubricants</strong> - सूखापन के लिए</li>
+                        <li>• <strong>Flibanserin (Addyi)</strong> - for low libido</li>
+                        <li>• <strong>Bremelanotide (Vyleesi)</strong> - for desire</li>
+                        <li>• <strong>Vaginal lubricants</strong> - for dryness</li>
                       </ul>
                     </div>
                     <div>
-                      <Badge className="mb-2">अन्य चिकित्सा विकल्प</Badge>
+                      <Badge className="mb-2">Other Medical Options</Badge>
                       <ul className="text-sm space-y-1 text-gray-700">
-                        <li>• Vacuum devices (पुरुषों के लिए)</li>
-                        <li>• Penile implants (गंभीर ED के लिए)</li>
+                        <li>• Vacuum devices (for men)</li>
+                        <li>• Penile implants (for severe ED)</li>
                         <li>• Pelvic floor therapy</li>
                       </ul>
                     </div>
@@ -533,24 +532,24 @@ export default function SexualDysfunctionOverview() {
 
               <Card className="shadow-lg">
                 <CardHeader className="bg-gradient-to-r from-purple-50 to-pink-50">
-                  <CardTitle>मनोवैज्ञानिक उपचार</CardTitle>
+                  <CardTitle>Psychological Treatment</CardTitle>
                 </CardHeader>
                 <CardContent className="pt-4">
                   <div className="space-y-4">
                     <div>
-                      <Badge className="mb-2">थेरेपी</Badge>
+                      <Badge className="mb-2">Therapy</Badge>
                       <ul className="text-sm space-y-1 text-gray-700">
-                        <li>• <strong>Sex therapy</strong> - विशेष यौन परामर्श</li>
+                        <li>• <strong>Sex therapy</strong> - specialized sexual counseling</li>
                         <li>• <strong>Cognitive Behavioral Therapy (CBT)</strong></li>
-                        <li>• <strong>Couples counseling</strong> - साथी के साथ</li>
-                        <li>• <strong>Psychotherapy</strong> - अंतर्निहित मुद्दों के लिए</li>
+                        <li>• <strong>Couples counseling</strong> - with partner</li>
+                        <li>• <strong>Psychotherapy</strong> - for underlying issues</li>
                       </ul>
                     </div>
                     <div>
-                      <Badge className="mb-2">तकनीकें</Badge>
+                      <Badge className="mb-2">Techniques</Badge>
                       <ul className="text-sm space-y-1 text-gray-700">
                         <li>• Sensate focus exercises</li>
-                        <li>• Mindfulness और meditation</li>
+                        <li>• Mindfulness and meditation</li>
                         <li>• Communication skills training</li>
                         <li>• Stress management</li>
                       </ul>
@@ -561,39 +560,39 @@ export default function SexualDysfunctionOverview() {
 
               <Card className="shadow-lg">
                 <CardHeader className="bg-gradient-to-r from-green-50 to-emerald-50">
-                  <CardTitle>जीवनशैली में बदलाव</CardTitle>
+                  <CardTitle>Lifestyle Changes</CardTitle>
                 </CardHeader>
                 <CardContent className="pt-4">
                   <ul className="text-sm space-y-2 text-gray-700">
-                    <li>• <strong>नियमित व्यायाम</strong> - रक्त प्रवाह और मनोदशा में सुधार</li>
-                    <li>• <strong>स्वस्थ आहार</strong> - संतुलित पोषण</li>
-                    <li>• <strong>धूम्रपान बंद करें</strong></li>
-                    <li>• <strong>शराब सीमित करें</strong></li>
-                    <li>• <strong>तनाव कम करें</strong> - योग, ध्यान</li>
-                    <li>• <strong>पर्याप्त नींद</strong> - 7-9 घंटे</li>
-                    <li>• <strong>वजन प्रबंधन</strong></li>
-                    <li>• <strong>साथी के साथ संवाद</strong></li>
+                    <li>• <strong>Regular exercise</strong> - improves blood flow and mood</li>
+                    <li>• <strong>Healthy diet</strong> - balanced nutrition</li>
+                    <li>• <strong>Quit smoking</strong></li>
+                    <li>• <strong>Limit alcohol</strong></li>
+                    <li>• <strong>Reduce stress</strong> - yoga, meditation</li>
+                    <li>• <strong>Adequate sleep</strong> - 7-9 hours</li>
+                    <li>• <strong>Weight management</strong></li>
+                    <li>• <strong>Communicate with partner</strong></li>
                   </ul>
                 </CardContent>
               </Card>
 
               <Card className="shadow-lg">
                 <CardHeader className="bg-gradient-to-r from-amber-50 to-orange-50">
-                  <CardTitle>वैकल्पिक उपचार</CardTitle>
+                  <CardTitle>Alternative Treatments</CardTitle>
                 </CardHeader>
                 <CardContent className="pt-4">
-                  <p className="text-sm text-gray-700 mb-3">कुछ प्राकृतिक विकल्प (डॉक्टर से पूछें):</p>
+                  <p className="text-sm text-gray-700 mb-3">Some natural options (consult doctor):</p>
                   <ul className="text-sm space-y-2 text-gray-700">
-                    <li>• <strong>L-arginine</strong> - रक्त प्रवाह में सुधार</li>
-                    <li>• <strong>Ginseng</strong> - पारंपरिक उपचार</li>
-                    <li>• <strong>Yohimbine</strong> - ED के लिए</li>
-                    <li>• <strong>Maca root</strong> - libido के लिए</li>
+                    <li>• <strong>L-arginine</strong> - improves blood flow</li>
+                    <li>• <strong>Ginseng</strong> - traditional remedy</li>
+                    <li>• <strong>Yohimbine</strong> - for ED</li>
+                    <li>• <strong>Maca root</strong> - for libido</li>
                     <li>• <strong>Acupuncture</strong></li>
                     <li>• <strong>Pelvic floor exercises</strong> (Kegels)</li>
                   </ul>
                   <Alert className="mt-3 bg-yellow-50 border-yellow-200">
                     <AlertDescription className="text-xs">
-                      सप्लीमेंट्स लेने से पहले हमेशा डॉक्टर से परामर्श करें, खासकर अगर आप अन्य दवाएं ले रहे हैं।
+                      Always consult a doctor before taking supplements, especially if you're on other medications.
                     </AlertDescription>
                   </Alert>
                 </CardContent>
@@ -608,29 +607,29 @@ export default function SexualDysfunctionOverview() {
                 <CardHeader className="bg-gradient-to-r from-blue-50 to-cyan-50">
                   <CardTitle className="flex items-center gap-2">
                     <MessageCircle className="w-5 h-5 text-blue-600" />
-                    साथी के साथ संवाद
+                    Partner Communication
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="pt-4">
-                  <p className="text-sm text-gray-700 mb-3">खुला और ईमानदार संवाद महत्वपूर्ण है:</p>
+                  <p className="text-sm text-gray-700 mb-3">Open and honest communication is crucial:</p>
                   <div className="space-y-3">
                     <div>
-                      <p className="font-semibold text-sm mb-1 text-green-700">✓ करें:</p>
+                      <p className="font-semibold text-sm mb-1 text-green-700">✓ Do:</p>
                       <ul className="text-sm space-y-1 text-gray-700">
-                        <li>• अपनी भावनाओं को साझा करें</li>
-                        <li>• सुनें और समझें</li>
-                        <li>• एक साथ समाधान खोजें</li>
-                        <li>• धैर्य रखें</li>
-                        <li>• शारीरिक अंतरंगता के अन्य तरीके खोजें</li>
+                        <li>• Share your feelings</li>
+                        <li>• Listen and understand</li>
+                        <li>• Find solutions together</li>
+                        <li>• Be patient</li>
+                        <li>• Explore other ways of physical intimacy</li>
                       </ul>
                     </div>
                     <div>
-                      <p className="font-semibold text-sm mb-1 text-red-700">✗ न करें:</p>
+                      <p className="font-semibold text-sm mb-1 text-red-700">✗ Don't:</p>
                       <ul className="text-sm space-y-1 text-gray-700">
-                        <li>• दोष न लगाएं</li>
-                        <li>• आलोचना न करें</li>
-                        <li>• मुद्दे से बचें नहीं</li>
-                        <li>• अकेले इस समस्या से जूझें नहीं</li>
+                        <li>• Don't blame</li>
+                        <li>• Don't criticize</li>
+                        <li>• Don't avoid the issue</li>
+                        <li>• Don't struggle alone with this problem</li>
                       </ul>
                     </div>
                   </div>
@@ -641,18 +640,18 @@ export default function SexualDysfunctionOverview() {
                 <CardHeader className="bg-gradient-to-r from-purple-50 to-pink-50">
                   <CardTitle className="flex items-center gap-2">
                     <Heart className="w-5 h-5 text-purple-600" />
-                    स्व-देखभाल
+                    Self-Care
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="pt-4">
                   <ul className="text-sm space-y-2 text-gray-700">
-                    <li>• <strong>आत्म-करुणा</strong> - खुद के प्रति दयालु रहें</li>
-                    <li>• <strong>यथार्थवादी अपेक्षाएं</strong> रखें</li>
-                    <li>• <strong>तनाव प्रबंधन</strong> - विश्राम तकनीकें</li>
-                    <li>• <strong>सकारात्मक body image</strong></li>
-                    <li>• <strong>शौक और रुचियां</strong> बनाए रखें</li>
-                    <li>• <strong>सामाजिक संपर्क</strong> बनाए रखें</li>
-                    <li>• <strong>पेशेवर मदद</strong> लेने में संकोच न करें</li>
+                    <li>• <strong>Self-compassion</strong> - be kind to yourself</li>
+                    <li>• Have <strong>realistic expectations</strong></li>
+                    <li>• <strong>Stress management</strong> - relaxation techniques</li>
+                    <li>• <strong>Positive body image</strong></li>
+                    <li>• Maintain <strong>hobbies and interests</strong></li>
+                    <li>• Maintain <strong>social connections</strong></li>
+                    <li>• Don't hesitate to seek <strong>professional help</strong></li>
                   </ul>
                 </CardContent>
               </Card>
@@ -661,18 +660,18 @@ export default function SexualDysfunctionOverview() {
                 <CardHeader className="bg-gradient-to-r from-green-50 to-emerald-50">
                   <CardTitle className="flex items-center gap-2">
                     <Stethoscope className="w-5 h-5 text-green-600" />
-                    पेशेवर सहायता
+                    Professional Help
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="pt-4">
-                  <p className="text-sm text-gray-700 mb-3">किससे परामर्श लें:</p>
+                  <p className="text-sm text-gray-700 mb-3">Who to consult:</p>
                   <ul className="text-sm space-y-2 text-gray-700">
-                    <li>• <strong>Primary care doctor</strong> - प्रारंभिक मूल्यांकन</li>
-                    <li>• <strong>Urologist</strong> - पुरुषों की समस्याओं के लिए</li>
-                    <li>• <strong>Gynecologist</strong> - महिलाओं की समस्याओं के लिए</li>
-                    <li>• <strong>Endocrinologist</strong> - हार्मोनल मुद्दों के लिए</li>
-                    <li>• <strong>Sex therapist</strong> - विशेष परामर्श</li>
-                    <li>• <strong>Psychologist/Psychiatrist</strong> - मानसिक स्वास्थ्य के लिए</li>
+                    <li>• <strong>Primary care doctor</strong> - initial evaluation</li>
+                    <li>• <strong>Urologist</strong> - for men's problems</li>
+                    <li>• <strong>Gynecologist</strong> - for women's problems</li>
+                    <li>• <strong>Endocrinologist</strong> - for hormonal issues</li>
+                    <li>• <strong>Sex therapist</strong> - specialized counseling</li>
+                    <li>• <strong>Psychologist/Psychiatrist</strong> - for mental health</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -681,17 +680,17 @@ export default function SexualDysfunctionOverview() {
                 <CardHeader className="bg-gradient-to-r from-rose-50 to-red-50">
                   <CardTitle className="flex items-center gap-2">
                     <Shield className="w-5 h-5 text-rose-600" />
-                    याद रखें
+                    Remember
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="pt-4">
                   <ul className="text-sm space-y-2 text-gray-700">
-                    <li>• यौन स्वास्थ्य समग्र स्वास्थ्य का हिस्सा है</li>
-                    <li>• यौन समस्याएं बहुत आम हैं</li>
-                    <li>• इसमें शर्मिंदा होने की कोई बात नहीं</li>
-                    <li>• अधिकांश मामले उपचार योग्य हैं</li>
-                    <li>• समय और धैर्य की आवश्यकता हो सकती है</li>
-                    <li>• आप अकेले नहीं हैं - मदद उपलब्ध है</li>
+                    <li>• Sexual health is part of overall health</li>
+                    <li>• Sexual problems are very common</li>
+                    <li>• Nothing to be embarrassed about</li>
+                    <li>• Most cases are treatable</li>
+                    <li>• May require time and patience</li>
+                    <li>• You're not alone - help is available</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -699,9 +698,9 @@ export default function SexualDysfunctionOverview() {
 
             <Alert className="bg-blue-50 border-blue-200">
               <Heart className="h-4 w-4 text-blue-600" />
-              <AlertTitle>सकारात्मक दृष्टिकोण</AlertTitle>
+              <AlertTitle>Positive Outlook</AlertTitle>
               <AlertDescription>
-                यौन अक्षमता एक चिकित्सा स्थिति है, व्यक्तिगत विफलता नहीं। सही उपचार और समर्थन के साथ, अधिकांश लोग संतोषजनक यौन जीवन वापस पा सकते हैं। पहला कदम मदद मांगना है।
+                Sexual dysfunction is a medical condition, not a personal failure. With proper treatment and support, most people can regain a satisfying sexual life. The first step is seeking help.
               </AlertDescription>
             </Alert>
           </TabsContent>
