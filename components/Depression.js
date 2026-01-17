@@ -324,10 +324,10 @@ export default function Depression() {
                   We are here to help. Our expert mental health professionals will provide the right treatment and support.
                 </p>
                 <a
-                  href="tel:8789482183"
+                  href="tel:9447452585"
                   className="inline-block bg-gradient-to-r from-green-600 to-teal-600 text-white text-lg font-bold py-4 px-10 rounded-lg shadow-lg hover:from-green-700 hover:to-teal-700 transition duration-300 transform hover:scale-105"
                 >
-                  📞 Contact Now: 878 948 2183
+                  📞 Contact Now: 9447452585
                 </a>
                 <p className="text-sm text-gray-600 mt-4">
                   24/7 Consultation Available • Confidentiality Guaranteed • Professional Care

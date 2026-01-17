@@ -417,10 +417,10 @@ export default function PTSD() {
                   We're here to help. Our trauma specialist mental health professionals provide EMDR, CPT, and other evidence-based treatments.
                 </p>
                 <a
-                  href="tel:9450016305"
+                  href="tel:9447452585"
                   className="inline-block bg-gradient-to-r from-red-600 to-orange-600 text-white text-lg font-bold py-4 px-10 rounded-lg shadow-lg hover:from-red-700 hover:to-orange-700 transition duration-300 transform hover:scale-105"
                 >
-                  📞 Contact Now: 945 001 6305
+                  📞 Contact Now: 9447452585
                 </a>
                 <p className="text-sm text-gray-600 mt-4">
                   24/7 Consultations Available • Trauma Specialists • Confidential Support
